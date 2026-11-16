@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mudiro heater",
+        "description": "Enter the BLE address of your heater.",
+        "data": {
+          "address": "Bluetooth address (MAC)",
+          "poll_interval": "Status refresh interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "invalid_mac": "Enter a MAC address in the format AA:BB:CC:DD:EE:FF."
+    },
+    "abort": {
+      "already_configured": "This Mudiro heater is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Mudiro settings",
+        "description": "Set how often the heater status is requested.",
+        "data": {
+          "poll_interval": "Status refresh interval (seconds)"
+        }
+      }
+    }
+  }
+}
