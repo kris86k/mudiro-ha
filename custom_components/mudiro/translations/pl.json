@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ogrzewacz Mudiro",
+        "description": "Podaj własny adres Bluetooth BLE ogrzewacza.",
+        "data": {
+          "address": "Adres BLE (MAC)",
+          "poll_interval": "Interwał odpytywania (sekundy)"
+        }
+      }
+    },
+    "error": {
+      "invalid_mac": "Wprowadź adres MAC w formacie AA:BB:CC:DD:EE:FF."
+    },
+    "abort": {
+      "already_configured": "Ten ogrzewacz Mudiro jest już skonfigurowany."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ustawienia Mudiro",
+        "description": "Ustaw częstotliwość odpytywania statusu ogrzewacza.",
+        "data": {
+          "poll_interval": "Interwał odpytywania (sekundy)"
+        }
+      }
+    }
+  }
+}
